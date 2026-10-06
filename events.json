@@ -1,0 +1,22 @@
+{
+  "events": [
+    {
+      "repository": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "url": "https://github.com/microsoft/vscode",
+      "starredAt": "2026-09-24"
+    },
+    {
+      "repository": "facebook/react",
+      "description": "A library for building user interfaces.",
+      "url": "https://github.com/facebook/react",
+      "starredAt": "2026-09-18"
+    },
+    {
+      "repository": "vercel/next.js",
+      "description": "The React framework for the web.",
+      "url": "https://github.com/vercel/next.js",
+      "starredAt": "2026-09-05"
+    }
+  ]
+}

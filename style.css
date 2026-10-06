@@ -1,0 +1,89 @@
+:root {
+  color-scheme: light;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #1f2328;
+  background: #f6f8fa;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+.page {
+  width: min(100% - 2rem, 720px);
+  margin: 4rem auto;
+}
+
+.page-header {
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  margin: 0 0 0.5rem;
+  font-size: clamp(1.75rem, 5vw, 2.25rem);
+}
+
+.page-header p {
+  margin: 0;
+  color: #59636e;
+}
+
+.repository-list {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.repository {
+  padding: 1.25rem;
+  border: 1px solid #d1d9e0;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+
+.repository a {
+  color: #0969da;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.repository a:hover,
+.repository a:focus-visible {
+  text-decoration: underline;
+}
+
+.repository p {
+  margin: 0.5rem 0;
+  color: #59636e;
+}
+
+.repository time {
+  color: #6e7781;
+  font-size: 0.875rem;
+}
+
+.status-message {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: #59636e;
+  background: #fff;
+}
+
+.status-message[role="alert"] {
+  color: #a40e26;
+}
+
+@media (max-width: 480px) {
+  .page {
+    margin-top: 2rem;
+  }
+}
